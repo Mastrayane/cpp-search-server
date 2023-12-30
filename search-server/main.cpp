@@ -163,7 +163,7 @@ private:
 		if (ratings.empty()) {
 			return 0;
 		}
-		int rating_sum = int rating_sum = std::accumulate(ratings.begin(), ratings.end(), 0);
+		int rating_sum = std::accumulate(ratings.begin(), ratings.end(), 0);
 		
 		return rating_sum / static_cast<int>(ratings.size());
 	}
